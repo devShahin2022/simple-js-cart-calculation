@@ -44,7 +44,7 @@ function dataLoad(){
             "<img src='"+ cartProducts[i].productUrl +"' alt=''>"+
             "<h5>"+ cartProducts[i].productName +"</h5>"+
             "</div>"+
-            "<div class='col-md-5 center-item'>"+
+            "<div class='col-md-5 center-item mb-2'>"+
             "<div class='input-group number-spinner'>"+
                 "<button onclick='minus("+ i +")'' class='btn btn-default'><i class='fas fa-minus'></i></button>"+
                 "<input disabled type='number' min='0' class='quantitySet form-control text-center' value='"+ cartProducts[i].productQut +"'>"+
