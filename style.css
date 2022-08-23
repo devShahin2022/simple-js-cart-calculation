@@ -54,18 +54,3 @@ body{
 	background-color: #2FBE70;
 	border: none;
 }
-/* media query */
-@media only screen and (max-width: 600px){
-	html,body{
-		font-size:10px !important;
-	}
-	#close-btn{
-		width: 10px !important;
-	}
-	.mLeftMobile{
-		margin-left:-3rem !important;
-	}
-	#close-btn{
-		margin-left: -3rem !important;
-	}
-}
